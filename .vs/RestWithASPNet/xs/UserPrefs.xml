@@ -1,9 +1,13 @@
 ﻿<Properties StartupConfiguration="{645557DA-810E-445C-8F37-7A25B48F1367}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RestWithASPNet/Hypermidia/Constants/RelationType (copiar).cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestWithASPNet/Hypermidia/Filters/HyperMediaFilter.cs">
     <Files>
       <File FileName="RestWithASPNet/Hypermidia/Constants/RelationType1.cs" Line="13" Column="1" />
-      <File FileName="RestWithASPNet/Hypermidia/Constants/RelationType.cs" Line="1" Column="1" />
-      <File FileName="RestWithASPNet/Hypermidia/Constants/RelationType (copiar).cs" Line="1" Column="1" />
+      <File FileName="RestWithASPNet/Hypermidia/Constants/RelationType.cs" Line="6" Column="43" />
+      <File FileName="RestWithASPNet/Hypermidia/Constants/RelationType (copiar).cs" Line="9" Column="41" />
+      <File FileName="RestWithASPNet/Hypermidia/Abstract/ISupportHyperMedia.cs" Line="8" Column="23" />
+      <File FileName="RestWithASPNet/Hypermidia/Filters/HyperMediaFilterOptions.cs" Line="13" Column="102" />
+      <File FileName="RestWithASPNet/Hypermidia/Filters/HyperMediaFilter.cs" Line="11" Column="40" />
+      <File FileName="RestWithASPNet/Hypermidia/Abstract/IResponseEnricher.cs" Line="7" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,8 +19,8 @@
               </Node>
               <Node name="Hypermidia" expanded="True">
                 <Node name="Abstract" expanded="True" />
-                <Node name="Constants" expanded="True">
-                  <Node name="RelationType (copiar).cs" selected="True" />
+                <Node name="Filters" expanded="True">
+                  <Node name="HyperMediaFilter.cs" selected="True" />
                 </Node>
               </Node>
               <Node name="Models" expanded="True" />
