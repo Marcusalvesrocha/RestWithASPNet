@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Models\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Implementations\" />
+    <None Remove="Pomelo.EntityFrameworkCore.MySql" />
+    <None Remove="Models\Context\" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Versioning" />
+    <None Remove="Business %28copiar%29\" />
+    <None Remove="Evolve" />
+    <None Remove="Serilog.AspNetCore" />
+    <None Remove="Serilog" />
+    <None Remove="Serilog.Sinks.Console" />
+    <None Remove="db\" />
+    <None Remove="db\migrations\" />
+    <None Remove="db\dataset\" />
+    <None Remove="Models\Base\" />
+    <None Remove="Repository\Generic\" />
+    <None Remove="Data\" />
+    <None Remove="Data\VO\" />
+    <None Remove="Data\Convert\" />
+    <None Remove="Data\Convert\Contract\" />
+    <None Remove="Data\Convert\Implementation\" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Formatters.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Business\" />
+    <Folder Include="Business\Implementations\" />
+    <Folder Include="Models\Context\" />
+    <Folder Include="Repository\" />
+    <Folder Include="db\" />
+    <Folder Include="db\migrations\" />
+    <Folder Include="db\dataset\" />
+    <Folder Include="Models\Base\" />
+    <Folder Include="Repository\Generic\" />
+    <Folder Include="Data\" />
+    <Folder Include="Data\VO\" />
+    <Folder Include="Data\Convert\" />
+    <Folder Include="Data\Convert\Contract\" />
+    <Folder Include="Data\Convert\Implementation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="4.1.1" />
+    <PackageReference Include="Evolve" Version="3.0.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Formatters.Xml" Version="2.2.0" />
+  </ItemGroup>
+</Project>

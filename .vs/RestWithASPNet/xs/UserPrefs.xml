@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{645557DA-810E-445C-8F37-7A25B48F1367}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestWithASPNet/Startup.cs">
+    <Files>
+      <File FileName="RestWithASPNet/Startup.cs" Line="46" Column="7" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="RestWithASPNet" expanded="True">
+            <Node name="RestWithASPNet" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Business" expanded="True">
+                <Node name="Implementations" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Convert" expanded="True">
+                  <Node name="Contract" expanded="True" />
+                  <Node name="Implementation" expanded="True" />
+                </Node>
+                <Node name="VO" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="Base" expanded="True" />
+              </Node>
+              <Node name="Repository" expanded="True">
+                <Node name="Generic" expanded="True" />
+              </Node>
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.RestWithASPNet PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
