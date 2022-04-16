@@ -11,10 +11,6 @@ namespace RestWithASPNet.Hypermidia
 {
     public abstract class ContentResponseEnricher<T> : IResponseEnricher where T : ISupportHyperMedia
     {
-        public ContentResponseEnricher()
-        {
-
-        }
 
         public bool CanEnrich(Type contentType)
         {
