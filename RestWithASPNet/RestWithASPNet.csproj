@@ -31,6 +31,7 @@
     <None Remove="Hypermidia\Abstract\" />
     <None Remove="Hypermidia\Constants\" />
     <None Remove="Hypermidia\Filtrs\" />
+    <None Remove="Hypermidia\Enricher\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -52,6 +53,7 @@
     <Folder Include="Hypermidia\Abstract\" />
     <Folder Include="Hypermidia\Constants\" />
     <Folder Include="Hypermidia\Filters\" />
+    <Folder Include="Hypermidia\Enricher\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="3.2.0" />

@@ -1,24 +1,27 @@
 ﻿<Properties StartupConfiguration="{645557DA-810E-445C-8F37-7A25B48F1367}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RestWithASPNet/Hypermidia/ContentResponseEnricher.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestWithASPNet/Hypermidia/HyperMidiaLink.cs">
     <Files>
-      <File FileName="RestWithASPNet/Hypermidia/Constants/RelationType.cs" Line="6" Column="43" />
-      <File FileName="RestWithASPNet/Hypermidia/Abstract/ISupportHyperMedia.cs" />
-      <File FileName="RestWithASPNet/Hypermidia/Filters/HyperMediaFilterOptions.cs" />
-      <File FileName="RestWithASPNet/Hypermidia/Filters/HyperMediaFilter.cs" />
-      <File FileName="RestWithASPNet/Hypermidia/Abstract/IResponseEnricher.cs" />
-      <File FileName="RestWithASPNet/Hypermidia/HyperMidiaLink.cs" />
-      <File FileName="RestWithASPNet/Hypermidia/ContentResponseEnricher.cs" Line="59" Column="1" />
+      <File FileName="RestWithASPNet/Startup.cs" Line="92" Column="84" />
+      <File FileName="RestWithASPNet/Hypermidia/Enricher/PersonEnricher.cs" Line="59" Column="68" />
+      <File FileName="RestWithASPNet/Controllers/PersonController.cs" Line="49" Column="47" />
+      <File FileName="RestWithASPNet/Hypermidia/Abstract/ISupportHyperMedia.cs" Line="8" Column="20" />
+      <File FileName="RestWithASPNet/Hypermidia/HyperMidiaLink.cs" Line="6" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RestWithASPNet" expanded="True">
             <Node name="RestWithASPNet" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True">
                 <Node name="Convert" expanded="True" />
+                <Node name="VO" expanded="True" />
               </Node>
               <Node name="Hypermidia" expanded="True">
-                <Node name="ContentResponseEnricher.cs" selected="True" />
+                <Node name="Abstract" expanded="True" />
+                <Node name="Enricher" expanded="True" />
+                <Node name="Filters" expanded="True" />
+                <Node name="HyperMidiaLink.cs" selected="True" />
               </Node>
               <Node name="Repository" expanded="True" />
             </Node>

@@ -5,6 +5,6 @@ namespace RestWithASPNet.Hypermidia.Abstract
 {
     public interface ISupportHyperMedia
     {
-        List<HyperMidiaLink> links { get; set; }
+        List<HyperMidiaLink> Links { get; set; }
     }
 }

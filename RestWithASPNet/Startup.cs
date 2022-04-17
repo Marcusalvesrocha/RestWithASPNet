@@ -14,6 +14,8 @@ using Serilog;
 using RestWithASPNet.Repository.Generic;
 using RestWithASPNet.Data.VO;
 using Microsoft.Net.Http.Headers;
+using RestWithASPNet.Hypermidia.Filters;
+using RestWithASPNet.Hypermidia.Enricher;
 
 namespace RestWithASPNet
 {
@@ -56,6 +58,11 @@ namespace RestWithASPNet
             })
             .AddXmlSerializerFormatters();
 
+            var filterOptions = new HyperMediaFilterOptions();
+            filterOptions.ContentResponseEnricherList.Add(new PersonEnricher());
+
+            services.AddSingleton(filterOptions);
+
             //Versionamento da API
             services.AddApiVersioning();
 
@@ -82,6 +89,7 @@ namespace RestWithASPNet
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+                endpoints.MapControllerRoute("DefaultApi", "{controller=value}/{id?}");
             });
         }
 
