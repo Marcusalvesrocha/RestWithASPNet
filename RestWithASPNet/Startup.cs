@@ -16,6 +16,8 @@ using RestWithASPNet.Data.VO;
 using Microsoft.Net.Http.Headers;
 using RestWithASPNet.Hypermidia.Filters;
 using RestWithASPNet.Hypermidia.Enricher;
+using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Rewrite;
 
 namespace RestWithASPNet
 {
@@ -66,6 +68,20 @@ namespace RestWithASPNet
             //Versionamento da API
             services.AddApiVersioning();
 
+            services.AddSwaggerGen(c => {
+                c.SwaggerDoc("v1",
+                    new OpenApiInfo {
+                        Title = "Rest API com Azure e Docker",
+                        Version = "v1",
+                        Description = "API RESTful",
+                        Contact = new OpenApiContact
+                        {
+                            Name = "Marcus Rocha",
+                            Url = new Uri("https://github.com/Marcusalvesrocha")
+                        }
+                    });
+            });
+
             //Injeção de Dependencia
             services.AddScoped<IPersonBusiness<PersonVO>, PersonBusinessImplementation>();
             services.AddScoped<IBookBusiness<BookVO>, BookBusinessImplementation>();
@@ -83,6 +99,17 @@ namespace RestWithASPNet
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c => {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json",
+                    "RestApi com Azure e Docker - v1");
+            });
+
+            var options = new RewriteOptions();
+            options.AddRedirect("^$", "swagger");
+            app.UseRewriter(options);
 
             app.UseAuthorization();
 
