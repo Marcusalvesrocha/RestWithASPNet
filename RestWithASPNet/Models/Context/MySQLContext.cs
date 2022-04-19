@@ -7,6 +7,7 @@ namespace RestWithASPNet.Models.Context
     {
         public virtual DbSet<Person> Persons { get; set; }
         public virtual DbSet<Book> Books { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
         public MySQLContext(DbContextOptions<MySQLContext> options) : base(options) {}
 
