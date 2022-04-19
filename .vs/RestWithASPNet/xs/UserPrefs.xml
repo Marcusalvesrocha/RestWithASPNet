@@ -1,27 +1,21 @@
 ﻿<Properties StartupConfiguration="{645557DA-810E-445C-8F37-7A25B48F1367}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="RestWithASPNet/Models/Context/MySQLContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestWithASPNet/Services/ITokenInterface.cs">
     <Files>
-      <File FileName="RestWithASPNet/db/migrations/V5__Create_Table_Users.sql" Line="7" Column="32" />
-      <File FileName="RestWithASPNet/db/dataset/V6__Insert_Data_In_Users.sql" Line="1" Column="103" />
-      <File FileName="RestWithASPNet/Models/User.cs" Line="24" Column="49" />
-      <File FileName="RestWithASPNet/Models/Context/MySQLContext.cs" Line="9" Column="55" />
+      <File FileName="RestWithASPNet/Repository/Generic/GenericRepository.cs" Line="66" Column="10" />
+      <File FileName="RestWithASPNet/Repository/UserRepository.cs" Line="46" Column="32" />
+      <File FileName="RestWithASPNet/Business/Implementations/PersonBusinessImplementation.cs" Line="1" Column="1" />
+      <File FileName="RestWithASPNet/Configurations/TokenConfiguration.cs" Line="18" Column="32" />
+      <File FileName="RestWithASPNet/appsettings.Development.json" Line="10" Column="22" />
+      <File FileName="RestWithASPNet/Services/ITokenInterface.cs" Line="8" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RestWithASPNet" expanded="True">
             <Node name="RestWithASPNet" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="db" expanded="True">
-                <Node name="dataset" expanded="True" />
-                <Node name="migrations" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="ITokenInterface.cs" selected="True" />
               </Node>
-              <Node name="Models" expanded="True">
-                <Node name="Context" expanded="True">
-                  <Node name="MySQLContext.cs" selected="True" />
-                </Node>
-              </Node>
-              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
